@@ -17,7 +17,7 @@ if(isset($_POST['login-submit'])) {
 		$sql = "SELECT * FROM users WHERE email=?;";
 		$stmt = mysqli_stmt_init($conn);
 		if(!mysqli_stmt_prepare($stmt, $sql)){
-			header("Location: header.php");
+			header("Location: add_cash.php");
 			exit();
 		}
 

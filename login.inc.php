@@ -17,7 +17,7 @@ if(isset($_POST['login-submit'])) {
 		$sql = "SELECT * FROM users WHERE email=?;";
 		$stmt = mysqli_stmt_init($conn);
 		if(!mysqli_stmt_prepare($stmt, $sql)){
-			header("Location: add_cash.php");
+			header("Location: header.php");
 			exit();
 		}
 
@@ -39,7 +39,7 @@ if(isset($_POST['login-submit'])) {
 					$_SESSION['username']=$row['username'];
 					$_SESSION['emailID']= $row['email'];
 
-					header("Location: add_savings.php");
+					header("Location: header.php");
 					exit();
 				}
 				else{

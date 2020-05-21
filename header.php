@@ -1,15 +1,4 @@
-<?php
-	
-session_start();
-require 'dbh.inc.php';
 
-include_once dirname(__FILE__).'/inc/config.php'; 
- 
-$q1 = app_db()->select('select * from transactions');
-
-?>
-
-<!DOCTYPE html>
 
 <html lang = "en">
 <head>
@@ -1083,4 +1072,4 @@ $(document).ready(function($)
 
 
 </body>
-</html>
+

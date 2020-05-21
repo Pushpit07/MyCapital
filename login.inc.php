@@ -39,7 +39,7 @@ if(isset($_POST['login-submit'])) {
 					$_SESSION['username']=$row['username'];
 					$_SESSION['emailID']= $row['email'];
 
-					header("Location: header.php");
+					header("Location: add_savings.php");
 					exit();
 				}
 				else{

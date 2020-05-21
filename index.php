@@ -94,7 +94,7 @@ session_start();
                                 <input class="email" type="password" name="pwd" placeholder="  Password" required>
                                 <button class="button button1" type="submit" name="login-submit" >Login</button>
                               </form>
-                              <a class="signbut" href="signup.php">Signup</a>';
+                              <a class="signbut" href="add_savings.php">Signup</a>';
                         }
                     ?>
                     

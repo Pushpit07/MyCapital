@@ -64,7 +64,7 @@ session_start();
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">
-                        <a class="nav-link" href="header.php" style="font-size: 20px;">HomePage <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="homepage.php" style="font-size: 20px;">HomePage <span class="sr-only">(current)</span></a>
                       </li>
               
                       <!-- <li class="nav-item dropdown">

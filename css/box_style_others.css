@@ -1,0 +1,156 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.containerother{
+	position: relative;
+	width: 920px;
+	height: 300px;
+	margin-top: -280px;
+	margin-left: 470px;
+}
+
+
+.containerother .box{
+	position: relative;
+	width: calc(230px - 30px);
+	height: calc(190px - 30px);
+	background: #000;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.containerother .box .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.containerother .box:hover .icon{
+	top: 12px;
+	left: calc(50% - 23px);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.containerother .box .icon .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+	transition: 0.5s;
+	color: #fff;
+}
+
+.containerother .box:hover .icon .fas{
+	font-size: 20px;
+}
+
+.containerother .box .content{
+	position: relative;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 15px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.containerother .box:hover .content{
+	top: 60px;
+	opacity: 1;
+	position: center;
+}
+
+.containerother .box .content h3{
+	margin: 0 0 10px;
+	padding: 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+.containerother .box .content p{
+	top:0px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 25px;
+}
+
+.containerother .box:nth-child(1) .icon{
+	background: #f0d316;
+}
+
+.containerother .box:nth-child(1){
+	background: #000000;
+}
+
+.containerother .box:nth-child(2) .icon{
+	background: #1d98c2;
+}
+
+.containerother .box:nth-child(2){
+	background: #000000;
+}
+
+.containerother .box:nth-child(3) .icon{
+	background: #f28918;
+}
+
+.containerother .box:nth-child(3){
+	background: #000000;
+}
+
+.containerother .box:nth-child(4) .icon{
+	background: #512787;
+}
+
+.containerother .box:nth-child(4){
+	background: #000000;
+}
+
+.containerother .box:nth-child(5) .icon{
+	background: #ed1c1c;
+}
+
+.containerother .box:nth-child(5){
+	background: #000000;
+}
+
+.containerother .box:nth-child(6) .icon{
+	background: #db939f;
+}
+
+.containerother .box:nth-child(6){
+	background: #000000;
+}
+
+.containerother .box:nth-child(7) .icon{
+	background: #10cc97;
+}
+
+.containerother .box:nth-child(7){
+	background: #000000;
+}
+
+.containerother .box:nth-child(8) .icon{
+	background: #414e4f;
+}
+
+.containerother .box:nth-child(8){
+	background: #000000;
+}
